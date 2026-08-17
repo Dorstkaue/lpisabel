@@ -129,6 +129,8 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .locations{max-width:none;background:#243348;color:white;padding:66px max(13%,calc((100% - 1060px)/2)) 95px}
 
+.teleconsulta{margin-top:42px;margin-bottom:36px;padding-top:28px;padding-bottom:28px;text-align:center}
+
 .eyebrow{text-transform:uppercase;letter-spacing:4px;font-size:19px;margin:0 0 5px}
 
 .locations h2{color:#b79c7d}
