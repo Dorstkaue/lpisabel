@@ -36,7 +36,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .artwork-one,.artwork-two,.artwork-four{background-repeat:no-repeat;background-position:center top;background-size:cover}
 
-.hero{height:448px;background-image:url('IMGS/SEÇÃO1.png');position:relative}
+.hero{height:448px;background-image:url('IMGS/secao1.png');position:relative}
 
 .hero-copy{position:absolute;left:clamp(40px,13.3vw,192px);top:101px}
 
@@ -76,7 +76,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .symptom-cta p{font-size:16px;margin:0}
 
-.consult{height:604px;background-image:url('IMGS/SEÇÃO2.png');color:#fff;position:relative;padding:66px max(15%,calc((100% - 1060px)/2)) 40px}
+.consult{height:604px;background-image:url('IMGS/secao2.png');color:#fff;position:relative;padding:66px max(15%,calc((100% - 1060px)/2)) 40px}
 
 .consult h2{font-size:42px;line-height:.95;margin:0}
 
@@ -99,7 +99,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .steps p{font-size:12px;line-height:1.05;margin:0}
 
-.about{height:558px;background-image:url('IMGS/seçao4.png');position:relative}
+.about{height:558px;background-image:url('IMGS/secao4.png');position:relative}
 
 .about-copy{position:absolute;top:68px;left:max(15%,calc((100% - 1020px)/2));width:340px;color:#fff}
 
@@ -226,12 +226,12 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 
 /* Exports finais do Figma para as versões mobile. */
 @media (max-width:760px){
-  .hero{height:474px;background-color:#b9a58c;background-image:url('IMGS/seção1mobile.png');background-size:402px auto;background-position:right top;background-repeat:no-repeat}
+  .hero{height:474px;background-color:#b9a58c;background-image:url('IMGS/secao1mobile.png');background-size:402px auto;background-position:right top;background-repeat:no-repeat}
   .hero-note{top:336px;left:54px;right:54px}
 
-  .consult{min-height:964px;background-image:url('IMGS/seção2mobile.png');background-size:cover;background-position:center top}
+  .consult{min-height:964px;background-image:url('IMGS/secao2mobile.png');background-size:cover;background-position:center top}
 
-  .about{height:881px;background-image:url('IMGS/seção4mobile.png');background-size:cover;background-position:center top}
+  .about{height:881px;background-image:url('IMGS/secao4mobile.png');background-size:cover;background-position:center top}
   .about-copy .about-message{position:absolute;top:244px;left:-136px;width:292px;padding:32px 24px 30px;background:#b79c7d;border-radius:15px;color:#fff}
   .about-copy .about-message h3,.about-copy .about-message>p{position:static;width:auto;margin:0;padding:0;background:transparent;border-radius:0;color:#fff}
   .about-copy .about-message h3{font-size:16px;line-height:1.2;margin-bottom:12px}
