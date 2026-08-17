@@ -22,7 +22,9 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .menu a{font-size:14px;font-weight:bold;color:#30435c;text-decoration:none}
 
-.button{min-height:57px;border-radius:9px;padding:12px 17px;display:inline-flex;align-items:center;justify-content:center;gap:16px;text-transform:uppercase;text-decoration:none;font-size:13px;font-weight:bold;white-space:nowrap}
+.button{min-height:57px;border-radius:9px;padding:12px 17px;display:inline-flex;align-items:center;justify-content:center;gap:16px;text-transform:uppercase;text-decoration:none;font-size:13px;font-weight:bold;white-space:normal;line-height:1.1;text-align:center}
+
+.button span{display:block;line-height:1.1}
 
 .button img{width:27px;height:27px}
 
@@ -36,9 +38,9 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .artwork-one,.artwork-two,.artwork-four{background-repeat:no-repeat;background-position:center top;background-size:cover}
 
-.hero{height:448px;background-image:url('IMGS/secao1.png');position:relative}
+.hero{height:448px;background-image:url('./IMGS/secao1.png');position:relative;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:0 clamp(40px,9vw,160px)}
 
-.hero-copy{position:absolute;left:clamp(40px,13.3vw,192px);top:101px}
+.hero-copy{position:static;max-width:500px}
 
 .hero h1,.section h2,.consult h2,.about h2,.cases h2{font-family:Higuen;font-weight:400}
 
@@ -46,7 +48,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .hero-copy p{font-size:14px;margin:0 0 12px;color:white}
 
-.hero-note{position:absolute;top:126px;right:13.5%;text-align:center;color:white;font-size:15px;line-height:1.05}
+.hero-note{position:static;max-width:420px;text-align:center;color:white;font-size:15px;line-height:1.05;margin-left:auto}
 
 .note-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:11px}
 
@@ -64,19 +66,19 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .intro{font-size:16px;margin:10px 0 37px}
 
-.symptom-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.symptom-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:760px;margin:0 auto}
 
-.symptom-grid article{height:171px;background:#e6dbce;border-radius:9px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#9c8972}
+.symptom-grid article{height:190px;background:#e6dbce;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#9c8972;padding:16px}
 
-.symptom-grid img{height:80px;max-width:100px;object-fit:contain;margin-bottom:8px}
+.symptom-grid img{height:74px;max-width:92px;object-fit:contain;margin-bottom:8px}
 
-.symptom-grid h3{margin:0;font-size:16px;line-height:1.1}
+.symptom-grid h3{margin:0;font-size:15px;line-height:1.15}
 
 .symptom-cta{margin-top:20px;background:#e6dbce;border-radius:12px;padding:15px 16px 15px 28px;display:flex;align-items:center;justify-content:space-between;text-align:left}
 
 .symptom-cta p{font-size:16px;margin:0}
 
-.consult{height:604px;background-image:url('IMGS/secao2.png');color:#fff;position:relative;padding:66px max(15%,calc((100% - 1060px)/2)) 40px}
+.consult{height:604px;background-image:url('./IMGS/secao2.png');color:#fff;position:relative;padding:66px max(15%,calc((100% - 1060px)/2)) 40px}
 
 .consult h2{font-size:42px;line-height:.95;margin:0}
 
@@ -99,7 +101,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .steps p{font-size:12px;line-height:1.05;margin:0}
 
-.about{height:558px;background-image:url('IMGS/secao4.png');position:relative}
+.about{height:558px;background-image:url('./IMGS/secao4.png');position:relative}
 
 .about-copy{position:absolute;top:68px;left:max(15%,calc((100% - 1020px)/2));width:340px;color:#fff}
 
@@ -109,9 +111,11 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .about-copy span{font-size:15px}
 
-.about-copy h3{font-size:16px;margin:77px 0 10px}
+.about-copy .about-message{position:absolute;left:50%;top:250px;transform:translateX(-50%);width:min(660px,calc(100vw - 220px));padding:26px 30px;border-radius:18px;background:rgba(183,156,125,.95);box-shadow:0 12px 20px rgba(24,31,42,.1);text-align:center;z-index:2}
 
-.about-copy>p:last-child{font-size:16px;line-height:1.2;margin:0}
+.about-copy .about-message h3{font-size:18px;line-height:1.2;margin:0 0 12px;color:#fff}
+
+.about-copy .about-message>p{font-size:16px;line-height:1.28;margin:0;color:#fff}
 
 .credentials{position:absolute;right:max(14%,calc((100% - 1050px)/2));top:76px;display:flex;flex-direction:column;gap:36px}
 
@@ -177,7 +181,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 
 
 @media(max-width:1050px){.header{padding:0 30px;gap:22px}.menu a{font-size:12px}.section{margin-inline:32px}.hero-copy{left:8%}.hero-note{right:7%}.symptom-grid{gap:12px}.consult{padding-inline:7%}.about-copy{left:8%}.credentials{right:7%}.locations,.faq,footer{padding-inline:7%}}
-@media(max-width:760px){.header{height:70px;padding:0 18px;justify-content:space-between;gap:10px}.brand{font-size:17px}.brand-mark{font-size:36px}.header-cta{display:none}.menu-toggle{display:flex;border:0;background:none;color:#243348;font:700 14px Product;align-items:center;gap:8px}.menu-toggle span,.menu-toggle span:before,.menu-toggle span:after{width:20px;height:2px;background:#243348;display:block;content:'';position:relative}.menu-toggle span:before{position:absolute;top:-6px}.menu-toggle span:after{position:absolute;top:6px}.menu{display:none;position:absolute;top:70px;left:0;right:0;background:#fff;padding:22px;flex-direction:column;box-shadow:0 5px 10px #0002}.menu.is-open{display:flex}.menu a{font-size:16px}.hero{height:660px;background-position:57% top}.hero-copy{left:22px;right:22px;top:45px}.hero h1{font-size:39px}.hero-copy p{font-size:13px}.hero-copy .button{width:100%;font-size:12px}.hero-note{top:auto;bottom:30px;left:20px;right:20px}.hero-note>p{text-align:center}.note-grid{text-align:center}.note-grid span{text-align:center}.symptoms{text-align:center}.section{text-align:center}.section h2{text-align:center}.intro{text-align:center}.symptom-grid{text-align:center}.symptom-grid article{text-align:center}.symptom-cta{text-align:center}.symptom-cta p{text-align:center}.consult{text-align:center}.consult h2{text-align:center}.consult>.button{text-align:center}.steps{text-align:center}.steps article:last-child{text-align:center}.steps article::after{display:none}.steps p{text-align:center}.about{text-align:center}.about-copy{text-align:center}.about-copy>p:first-child{text-align:center}.about h2{text-align:center}.about-copy h3{text-align:center}.about-copy>p:last-child{text-align:center}.credentials{text-align:center}.credentials span{text-align:center}}
+@media(max-width:760px){.header{height:70px;padding:0 18px;justify-content:space-between;gap:10px}.brand{font-size:17px}.brand-mark{font-size:36px}.header-cta{display:none}.menu-toggle{display:flex;border:0;background:none;color:#243348;font:700 14px Product;align-items:center;gap:8px}.menu-toggle span,.menu-toggle span:before,.menu-toggle span:after{width:20px;height:2px;background:#243348;display:block;content:'';position:relative}.menu-toggle span:before{position:absolute;top:-6px}.menu-toggle span:after{position:absolute;top:6px}.menu{display:none;position:absolute;top:70px;left:0;right:0;background:#fff;padding:22px;flex-direction:column;box-shadow:0 5px 10px #0002}.menu.is-open{display:flex}.menu a{font-size:16px}.hero{height:auto;min-height:660px;background-position:57% top;display:block;padding:45px 22px 30px}.hero-copy{max-width:none}.hero h1{font-size:39px}.hero-copy p{font-size:13px}.hero-copy .button{width:100%;font-size:12px}.hero-note{max-width:none;margin:24px 0 0}.hero-note>p{text-align:center}.note-grid{text-align:center}.note-grid span{text-align:center}.symptoms{text-align:center}.section{text-align:center}.section h2{text-align:center}.intro{text-align:center}.symptom-grid{text-align:center}.symptom-grid article{text-align:center}.symptom-cta{text-align:center}.symptom-cta p{text-align:center}.consult{text-align:center}.consult h2{text-align:center}.consult>.button{text-align:center}.steps{text-align:center}.steps article:last-child{text-align:center}.steps article::after{display:none}.steps p{text-align:center}.about{text-align:center}.about-copy{text-align:center}.about-copy>p:first-child{text-align:center}.about h2{text-align:center}.about-copy h3{text-align:center}.about-copy>p:last-child{text-align:center}.credentials{text-align:center}.credentials span{text-align:center}}
 
 /* Assets oficiais: logotipo e ícones exportados do Figma. */
 .brand img{display:block;width:132px;height:auto}
@@ -226,12 +230,12 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 
 /* Exports finais do Figma para as versões mobile. */
 @media (max-width:760px){
-  .hero{height:474px;background-color:#b9a58c;background-image:url('IMGS/secao1mobile.png');background-size:402px auto;background-position:right top;background-repeat:no-repeat}
+  .hero{height:474px;background-color:#b9a58c;background-image:url('./IMGS/secao1mobile.png');background-size:402px auto;background-position:right top;background-repeat:no-repeat}
   .hero-note{top:336px;left:54px;right:54px}
 
-  .consult{min-height:964px;background-image:url('IMGS/secao2mobile.png');background-size:cover;background-position:center top}
+  .consult{min-height:964px;background-image:url('./IMGS/secao2mobile.png');background-size:cover;background-position:center top}
 
-  .about{height:881px;background-image:url('IMGS/secao4mobile.png');background-size:cover;background-position:center top}
+  .about{height:881px;background-image:url('./IMGS/secao4mobile.png');background-size:cover;background-position:center top}
   .about-copy .about-message{position:absolute;top:244px;left:-136px;width:292px;padding:32px 24px 30px;background:#b79c7d;border-radius:15px;color:#fff}
   .about-copy .about-message h3,.about-copy .about-message>p{position:static;width:auto;margin:0;padding:0;background:transparent;border-radius:0;color:#fff}
   .about-copy .about-message h3{font-size:16px;line-height:1.2;margin-bottom:12px}
