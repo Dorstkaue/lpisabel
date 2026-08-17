@@ -115,6 +115,12 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .credentials span{width:255px;padding:17px;background:#243348;border-radius:12px;text-align:center;text-transform:uppercase;color:#fff;font-weight:bold;font-size:12px;line-height:1.05}
 
+.about-copy .about-message{position:absolute;left:50%;top:250px;transform:translateX(-50%);width:min(660px,calc(100vw - 220px));padding:26px 30px;border-radius:18px;background:rgba(183,156,125,.95);box-shadow:0 12px 20px rgba(24,31,42,.1);text-align:center;z-index:2}
+
+.about-copy .about-message h3{font-size:18px;line-height:1.2;margin:0 0 12px;color:#fff}
+
+.about-copy .about-message>p{font-size:16px;line-height:1.28;margin:0;color:#fff}
+
 .cases{background:#b79c7d;color:white;text-align:center;padding:70px max(11%,calc((100% - 1100px)/2)) 80px;min-height:310px}
 
 .cases h2{font-size:42px;margin:0 0 48px}
@@ -230,11 +236,11 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
   .consult{min-height:964px;background-image:url('./IMGS/secao2mobile.png');background-size:cover;background-position:center top}
 
   .about{height:881px;background-image:url('./IMGS/secao4mobile.png');background-size:cover;background-position:center top}
-  .about-copy{position:static;width:auto;padding:0 20px;text-align:center}
+  .about-copy{position:relative;top:auto;left:auto;width:auto;padding:0 18px;text-align:center}
   .about-copy>p:first-child{font-size:17px}
   .about h2{font-size:42px;line-height:.83;margin:6px 0 12px}
   .about-copy span{font-size:12px;display:block}
-  .about-copy .about-message{position:static;transform:none;width:100%;margin-top:18px;padding:20px 18px;border-radius:15px;background:#b79c7d;box-shadow:none;text-align:center}
+  .about-copy .about-message{position:relative;left:auto;top:auto;transform:none;width:100%;margin-top:16px;padding:20px 18px;border-radius:15px;background:#b79c7d;box-shadow:none;text-align:center}
   .about-copy .about-message h3,.about-copy .about-message>p{position:static;width:auto;margin:0;padding:0;background:transparent;border-radius:0;color:#fff}
   .about-copy .about-message h3{font-size:16px;line-height:1.2;margin-bottom:12px}
   .about-copy .about-message>p{font-size:16px;line-height:1.2}
