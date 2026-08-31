@@ -231,7 +231,9 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 /* Exports finais do Figma para as versões mobile. */
 @media (max-width:760px){
   .hero{height:430px;background-color:#b9a58c;background-image:url('./IMGS/secao1mobile.png');background-size:360px auto;background-position:right top;background-repeat:no-repeat;padding-bottom:0}
-  .hero-note{top:300px;left:42px;right:42px;margin:0;padding-bottom:0;border-bottom:none}
+  .hero-note{top:300px;left:42px;right:42px;margin:0;padding-bottom:0;border-bottom:none;box-shadow:none;background:transparent}
+  .symptoms{padding-top:12px;padding-bottom:10px;background:transparent}
+  .symptom-grid{margin-top:0;gap:12px}
 
   .consult{min-height:964px;background-image:url('./IMGS/secao2mobile.png');background-size:cover;background-position:center top}
 
