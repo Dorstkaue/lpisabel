@@ -243,7 +243,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 @media (max-width:760px){
   .hero{height:430px;background-color:#b9a58c;background-image:url('./IMGS/secao1mobile.png');background-size:360px auto;background-position:right top;background-repeat:no-repeat;padding-bottom:0}
   .hero-note{top:300px;left:42px;right:42px;margin:0;padding-bottom:0;border-bottom:none;box-shadow:none;background:transparent}
-  .symptoms{padding-top:10px;padding-bottom:0;background:transparent}
+  .symptoms{padding-top:10px;padding-bottom:2px;background:transparent}
   .symptom-grid{margin-top:0;gap:12px;margin-bottom:0}
   .symptom-cta{margin-bottom:0}
 
