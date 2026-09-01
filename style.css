@@ -167,7 +167,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .accordion details p{margin:14px 0 0;color:#667085}
 
-footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/2)); gap:80px}
+footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/2));display: grid; gap:80px}
 
 .footer-brand{color:#b79c7d;display:flex;align-items:flex-start;gap:18px;font-family:Higuen;font-size:39px;line-height:.85}
 
