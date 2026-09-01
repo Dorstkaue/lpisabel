@@ -194,7 +194,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 
 .location-grid p img[src*="pin"]{width:10px}
 
-.footer-brand>img{width:300px;max-width:100%;height:auto}
+.footer-brand>img{width:300px;height:auto}
 
 .footer-brand .brand-mark,.footer-brand strong{display:none}
 
@@ -228,7 +228,8 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 
   .consult{height:auto;min-height:965px;padding:205px 26px 45px;background-color:#293c56;background-size:auto 604px;background-position:left top}.consult h2{font-size:43px;line-height:.92}.consult>.button{display:none}.steps{grid-template-columns:1fr 1fr;margin-top:58px;gap:42px 22px}.steps article:nth-child(5){grid-column:span 2}.steps article::after{display:none}.steps img{height:43px;margin-bottom:11px}.steps h3{font-size:16px;margin-top:10px}.steps p{font-size:12px;line-height:1.1;max-width:145px}
 
-  .about{height:880px;background-color:#b79c7d;background-size:auto 558px;background-position:44% top}.about-copy{top:63px;left:auto;right:18px;width:208px;text-align:center}.about-copy>p:first-child{font-size:17px;white-space:nowrap}.about h2{font-size:42px;line-height:.83;margin:6px 0 12px}.about-copy span{font-size:12px;line-height:1.1;display:block}.about-copy h3{position:absolute;top:244px;left:-136px;width:292px;margin:0;padding:32px 24px 7px;background:#b79c7d;border-radius:15px 15px 0 0;font-size:16px;line-height:1.2;color:#fff}.about-copy>p:last-child{position:absolute;top:325px;left:-136px;width:292px;margin:0;padding:12px 24px 30px;background:#b79c7d;border-radius:0 0 15px 15px;font-size:16px;line-height:1.2;color:#fff}.credentials{top:574px;right:0;left:0;bottom:auto;align-items:center;gap:13px}.credentials span{width:255px;padding:16px 13px;font-size:12px}
+  .about{height:880px;background-color:#b79c7d;background-size:auto 558px;background-position:44% top}
+  .about-copy{left:auto;text-align:center}.about-copy>p:first-child{font-size:17px;white-space:nowrap}.about h2{font-size:42px;line-height:.83;margin:6px 0 12px}.about-copy span{font-size:12px;line-height:1.1;display:block}.about-copy h3{position:absolute;top:244px;left:-136px;width:292px;margin:0;padding:32px 24px 7px;background:#b79c7d;border-radius:15px 15px 0 0;font-size:16px;line-height:1.2;color:#fff}.about-copy>p:last-child{position:absolute;top:325px;left:-136px;width:292px;margin:0;padding:12px 24px 30px;background:#b79c7d;border-radius:0 0 15px 15px;font-size:16px;line-height:1.2;color:#fff}.credentials{top:574px;right:0;left:0;bottom:auto;align-items:center;gap:13px}.credentials span{width:255px;padding:16px 13px;font-size:12px}
 }
 
 /* Cartões de locais em coluna única no tablet e no celular. */
