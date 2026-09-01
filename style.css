@@ -243,14 +243,14 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 @media (max-width:760px){
   .hero{height:430px;background-color:#b9a58c;background-image:url('./IMGS/secao1mobile.png');background-size:360px auto;background-position:right top;background-repeat:no-repeat;padding-bottom:0}
   .hero-note{top:300px;left:42px;right:42px;margin:0;padding-bottom:0;border-bottom:none;box-shadow:none;background:transparent}
-  .symptoms{padding-top:10px;padding-bottom:250px;background:transparent}
+  .symptoms{padding-top:10px;background:transparent}
   .symptom-grid{margin-top:0;gap:12px;margin-bottom:0}
   .symptom-cta{margin-bottom:0}
 
   .consult{min-height:964px;background-image:url('./IMGS/secao2mobile.png');background-size:cover;background-position:center top}
 
   .about{height:881px;background-image:url('./IMGS/secao4mobile.png');background-size:cover;background-position:center top}
-  .about-copy{position:relative;top:auto;left:auto;width:auto;padding:0 18px;text-align:center}
+  .about-copy{left:auto;width:75%;padding:0 18px;text-align:center}
   .about-copy>p:first-child{font-size:17px}
   .about h2{font-size:42px;line-height:.83;margin:6px 0 12px}
   .about-copy span{font-size:12px;display:block}
