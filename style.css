@@ -194,6 +194,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
   .menu{display:none;position:absolute;top:70px;left:0;right:0;background:#fff;padding:22px;flex-direction:column;box-shadow:0 5px 10px #0002}
   .menu.is-open{display:flex}
   .menu a{font-size:16px}
+  .hero{height:auto;min-height:520px;background-position:57% top;display:block;padding:45px 22px 20px}
   .hero-copy{max-width:none}
   .hero h1{font-size:39px}
   .hero-copy p{font-size:13px}
