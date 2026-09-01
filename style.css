@@ -62,9 +62,9 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .symptoms{padding:67px 0 76px;text-align:center}
 
-.section h2{margin:0;color:#b69d80;font-size:40px;line-height:1}
+.section h2{margin:10px;color:#b69d80;font-size:40px;line-height:1}
 
-.intro{font-size:16px;margin:10px 0 37px}
+.intro{font-size:16px;margin:26px 0 37px}
 
 .symptom-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:980px;margin:0 auto}
 
