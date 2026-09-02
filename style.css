@@ -76,7 +76,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .symptom-grid h3{margin:0;font-size:15px;line-height:1.15}
 
-.symptom-cta{margin-top:20px;background:#e6dbce;border-radius:12px;padding:15px 16px 15px 28px;display:flex;align-items:center;justify-content:space-between;text-align:left}
+.symptom-cta{margin-top:20px;background:#e6dbce;border-radius:12px;padding:14px 16px 0px 32px;display:flex;align-items:center;justify-content:space-between;text-align:left}
 
 .symptom-cta p{font-size:16px;margin:0}
 
