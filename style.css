@@ -97,7 +97,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif; font-size:18px
 
 .steps img{height:40px;max-width:52px;object-fit:contain;filter:brightness(0) invert(1);margin-bottom:10px}
 
-.steps b{background:#f7f3eb;color:#34465c;width:24px;height:24px;border-radius:50%;padding-top:3px}
+.steps b{background:#f7f3eb;color:#34465c;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;padding:0;flex:0 0 24px;margin-bottom:10px}
 
 .steps h3{font-size:16px;margin:10px 0 3px}
 
