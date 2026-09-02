@@ -117,7 +117,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .credentials span{width:255px;padding:17px;background:#243348;border-radius:12px;text-align:center;text-transform:uppercase;color:#fff;font-weight:bold;font-size:12px;line-height:1.05}
 
-.about-copy .about-message{position:absolute;left:50%;top:250px;transform:translateX(-50%);width:min(660px,calc(100vw - 220px));padding:26px 30px;border-radius:18px;background:rgba(183,156,125,.95);box-shadow:0 12px 20px rgba(24,31,42,.1);text-align:center;z-index:2}
+.about-copy .about-message{position:absolute;left:50%;top:250px;transform:translateX(-50%);width:min(365px,calc(100vw - 220px));padding:26px 30px;border-radius:18px;background:rgba(183,156,125,.95);box-shadow:0 12px 20px rgba(24,31,42,.1);text-align:center;z-index:2}
 
 .about-copy .about-message h3{font-size:18px;line-height:1.2;margin:0 0 12px;color:#fff}
 
