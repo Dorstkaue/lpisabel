@@ -318,7 +318,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
   
   .hero-copy{max-width:none}
     
-  .hero-copy .button{width:165%;font-size:16px}
+  .hero-copy .button{width:font-size:16px}
   
   .hero-note{max-width:none;margin:24px 0 0}
   
