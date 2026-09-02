@@ -255,7 +255,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 
   .hero-copy{top:62px;left:24px;right:auto;width:205px}
   
-  .hero h1{font-size:28px;line-height:.88;margin-bottom:10px}
+  .hero h1{font-size:28px;line-height:.88;margin-bottom:10px; font-weight: bold;}
     
   .break-word{display:block}
   
@@ -268,7 +268,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 
   .hero-note{top:420px;bottom:auto;left:54px;right:54px;margin:0}
   
-  .hero-note>p{display:block;margin:24px;font-size:16px;line-height:1.2;color:#fff;text-align:center}
+  .hero-note>p{display:block;font-size:16px;line-height:1.2;color:#fff;text-align:center}
   
   .note-grid{gap:13px;margin:0}
   
