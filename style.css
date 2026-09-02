@@ -22,7 +22,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif; font-size:18px
 
 .menu a{font-size:14px;font-weight:bold;color:#30435c;text-decoration:none}
 
-.button{min-height:60px;width: 260px;padding: 10px 20px; margin-bottom: 24px; border-radius:10px;display:inline-flex;align-items:center;justify-content:center;text-transform:uppercase;text-decoration:none;font-weight:bold;white-space:nowrap;line-height:1.1;text-align:center; gap:14px;}
+.button{min-height:60px;width: auto;padding: 10px 20px; margin-bottom: 24px; border-radius:10px;display:inline-flex;align-items:center;justify-content:center;text-transform:uppercase;text-decoration:none;font-weight:bold;white-space:nowrap;line-height:1.1;text-align:center; gap:14px;}
 
 .button span{display:block;line-height:1.1}
 
