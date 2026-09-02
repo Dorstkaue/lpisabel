@@ -54,7 +54,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif; font-size:18px
 
 .note-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:11px}
 
-.note-grid span{height:57px;background:#fff;color:#9c876e;border-radius:9px;display:flex;align-items:center;justify-content:center;gap:15px;font-size:21px;box-shadow:0 2px 3px #0004;padding:0 10px}
+.note-grid span,.note-grid a{height:57px;background:#fff;color:#9c876e;border-radius:9px;display:flex;align-items:center;justify-content:center;gap:15px;font-size:21px;box-shadow:0 2px 3px #0004;padding:0 10px;text-decoration:none}
 
 .note-grid small{font-size:12px;line-height:1;text-align:left}
 
