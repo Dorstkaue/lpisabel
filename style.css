@@ -334,7 +334,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
 
   .symptom-grid{margin-top:0;gap:12px;margin-bottom:0}
 
-  .symptom-cta{margin-bottom:0}
+  .symptom-cta{margin-bottom:0; display:grid; grid-template-columns:1fr 1fr; gap:12px; padding:0 12px}
 
   .consult{min-height:964px;background-image:url('./IMGS/secao2mobile.png');background-size:cover;background-position:center top}
 
