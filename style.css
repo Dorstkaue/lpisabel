@@ -22,7 +22,7 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .menu a{font-size:14px;font-weight:bold;color:#30435c;text-decoration:none}
 
-.button{min-height:57px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;text-transform:uppercase;text-decoration:none;font-weight:bold;white-space:normal;line-height:1.1;text-align:center}
+.button{min-height:60px;width: 260px;padding: 10px 20px; border-radius:10px;display:inline-flex;align-items:center;justify-content:center;text-transform:uppercase;text-decoration:none;font-weight:bold;white-space:nowrap;line-height:1.1;text-align:center}
 
 .button span{display:block;line-height:1.1}
 
@@ -316,7 +316,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
   
   .hero-copy{max-width:none}
     
-  .hero-copy .button{width:385px;font-size:16px}
+  .hero-copy .button{width:165%;font-size:16px}
   
   .hero-note{max-width:none;margin:24px 0 0}
   
