@@ -318,7 +318,7 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
   
   .hero-copy{max-width:none}
     
-  .hero-copy .button{width:font-size:16px}
+  .hero-copy .button{width:165%;font-size:16px}
   
   .hero-note{max-width:none;margin:24px 0 0}
   
@@ -359,4 +359,10 @@ footer{background:#243348;color:white;padding:65px max(13%,calc((100% - 1060px)/
   .about-copy .about-message>p{font-size:16px;line-height:1.2}
 
   .about .credentials{position:absolute;top:574px;right:0;bottom:auto;left:0;z-index:2;display:flex;align-items:center;gap:13px}
+}
+
+@media (min-width:761px){
+  p{font-size:18px !important}
+  h1{font-size:48px !important}
+  button,.button{font-size:18px !important}
 }
