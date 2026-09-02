@@ -8,7 +8,7 @@
 
 html{scroll-behavior:smooth}
 
-body{margin:0;color:#243348;font-family:Product,Arial,sans-serif; font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{margin:0;color:#243348;font-family:Product,Arial,sans-serif; font-size:18px;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 
 .header{height:86px;padding:0 clamp(24px,13vw,190px);display:flex;align-items:center;gap:40px;background:#fff;position:sticky;top:0;z-index:10}
 
