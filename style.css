@@ -42,6 +42,8 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif}
 
 .hero-copy{position:static;max-width:500px}
 
+.hero-copy>.button{width:340px}
+
 .hero h1,.section h2,.consult h2,.about h2,.cases h2{font-family:Higuen;font-weight:400}
 
 .hero h1{line-height:.94;margin:0 0 8px}
