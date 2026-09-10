@@ -1,0 +1,103 @@
+<?php get_header(); ?>
+
+      <section id="inicio" class="hero artwork-one">
+        <div class="hero-copy"><strong><h1>Você não precisa<br>conviver com<br>estes sintomas:</h1></strong>
+          <p>Dor de cabeça constante. <span class="break-word">Tonturas.</span> Formigamentos.<br>Esquecimentos. <strong>Seu corpo está <br> avisando algo.</strong></p><a class="button button-green" href="https://api.whatsapp.com/send/?phone=5548996500320&text=Ol%C3%A1%2C+vim+do+site+da+Dra.+Isabel+e+gostaria+de+agendar+uma+consulta.&type=phone_number&app_absent=0" target="_blank" rel="noopener">Quero entender meus sintomas <img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""></a></div>
+
+        <div class="hero-note">
+          <div class="note-grid"><a href="https://www.google.com/maps/place/Dra.+Isabel+Rampinelli+-+Neurologista+em+Crici%C3%BAma,+Ararangu%C3%A1+e+Turvo%2FSC/@-28.8144954,-49.4782291,11z/data=!4m8!3m7!1s0x62927220f4cd5753:0x823c8637cd2cf73b!8m2!3d-28.8144954!4d-49.4782291!9m1!1b1!16s%2Fg%2F11xl3vzpvn?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" aria-label="Ver avaliações no Google"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/PACIENTES.svg" alt=""><small>+ de 1000<br>pacientes atendidos</small></a><span><img src="<?php echo get_template_directory_uri(); ?>/ICONS/familiaicon.svg" alt=""><small>Adultos e<br>crianças acima<br>de oito anos</small></a></span><a class="wide" href="#locais"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/local.svg" alt=""><small>Presencial em Araranguá, Criciúma e Turvo</small></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="especialidades" class="symptoms section">
+        <h2>Talvez você esteja passando por isso</h2>
+        <p class="intro">Você faz exames. <strong>Os resultados parecem normais, mas os sintomas ainda estão ali.</strong><br>Você pesquisa, pergunta para amigos, tenta ignorar. Mas eles continuam aparecendo.</p>
+
+        <div class="symptom-grid">
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/dorcabeca.svg" alt=""><h3>Dor de cabeça<br>frequente</h3></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/tontura.svg" alt=""><h3>Tontura ou<br>Vertigem</h3></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/esquecimento.svg" alt=""><h3>Esquecimentos<br>recorrentes</h3></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/Formigamento.svg" alt=""><h3>Formigamentos</h3></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/tremores.png" alt=""><h3>Tremores</h3></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/sono.svg" alt=""><h3>Alterações<br>do sono</h3></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/fraqueza.png" alt=""><h3>Falta de força</h3></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/AVC.svg" alt=""><h3>Histórico<br>de AVC</h3></article>
+        </div>
+
+        <div class="symptom-cta"><p>Quanto antes a causa é identificada, mais chances de tratamento.</p><a class="button button-green" href="https://api.whatsapp.com/send?phone=5548991140848&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Isabel%20Rampinelli.%20" target="_blank" rel="noopener"><span>Quero entender<br>meus sintomas</span> <img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""></a></div>
+      </section>
+
+      <section class="consult artwork-two">
+        <div class="consult-title"><h2>Como funciona<br>a consulta?</h2></div>
+        <a class="button button-light" href="https://api.whatsapp.com/send?phone=5548991140848&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Isabel%20Rampinelli.%20" target="_blank" rel="noopener">Agende sua consulta <img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""></a>
+        
+        <div class="steps">
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/escuta.svg" alt=""><b>1</b><h3>Escuta detalhada</h3><p>Entender quando os sintomas começaram e como impactam sua rotina.</p></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/INVESTIGAR.svg" alt=""><b>2</b><h3>Investigação</h3><p>Análise clínica completa para entender o que seu corpo está comunicando.</p></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/esquecimento.svg" alt=""><b>3</b><h3>Diagnóstico</h3><p>Busca da causa real dos seus sintomas com precisão.</p></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/PLANEJAR.svg" alt=""><b>4</b><h3>Plano de tratamento</h3><p>Conduta individualizada baseada em ciência e no que faz sentido para você.</p></article>
+          <article><img src="<?php echo get_template_directory_uri(); ?>/ICONS/acompanhamento.svg" alt=""><b>5</b><h3>Acompanhamento</h3><p>Monitoramento da evolução para garantir mais qualidade de vida e bem-estar.</p></article>
+        </div>
+      </section>
+
+      <section id="sobre" class="about artwork-four">
+        <div class="about-copy"><p>Quem vai cuidar de você?</p><h2>Dra. Isabel<br>Rampinelli</h2><span>Neurologista especialista em Neurologia Vascular</span><div class="about-message"><h3>Acredito que uma boa consulta<br>começa antes do diagnóstico.</h3><p>Por isso, cada atendimento é conduzido com escuta atenta, investigação detalhada e foco em entender o que está acontecendo com você.</p></div></div>
+        <div class="credentials"><span>Formação em um dos<br>principais hospitais do Brasil</span><span>Hospital Moinhos de Vento<br>(Porto Alegre/RS)</span><span>Especialista em Neurologia<br>Vascular</span><span>Atendimento presencial<br>em 3 cidades</span></div>
+      </section>
+
+      <section class="cases">
+        <h2>Casos que mais atendemos</h2>
+        <div>
+          <article><h3>Memória e<br>Concentração</h3><p>Avaliação e tratamento personalizado queixas leves ou intensas.</p></article>
+          <article><h3>Tontura e<br>Vertigem</h3><p>Investigação das causas e tratamento para recuperar seu equilíbrio.</p></article>
+          <article><h3>AVC e<br>Prevenção</h3><p>Avaliação de fatores de risco e prevenção para proteger o cérebro.</p></article>
+          <article><h3>Enxaquecas</h3><p>Avaliação e tratamento personalizado para crises leves ou intensas.</p></article>
+          <article><h3>Tremores</h3><p>Investigação e tratamento para tremores em repouso ou movimento.</p></article>
+        </div>
+      </section>
+
+      <!-- SEÇÃO RESERVADA PARA AS AVALIAÇÕES DO GOOGLE (VIA PLUGIN) -->
+      <section class="section section-reviews" style="padding: 60px 20px; text-align: center;">
+          <h2 style="color: #b79c7d; font-family: Higuen; font-size: 40px; margin-bottom: 20px;">O que dizem os pacientes</h2>
+          <?php 
+            // O shortcode abaixo será gerado pelo plugin de avaliações do Google que você instalar (ex: Trustindex)
+            if (function_exists('do_shortcode')) {
+                echo do_shortcode('[trustindex no-wrapper=google]'); 
+            }
+          ?>
+      </section>
+
+      <section id="locais" class="locations section">
+        <p class="eyebrow">Locais de atendimento</p>
+        <h2>Onde me encontrar?</h2>
+        <p class="location-intro">Realizo atendimentos presenciais em diferentes cidades do Sul de Santa Catarina, levando um cuidado neurológico de excelência com acessibilidade, estrutura e compromisso com cada paciente. Escolha a unidade mais próxima e agende sua consulta.</p>
+
+        <div class="location-grid">
+          <article><h3>Clínica Aura Neurologia</h3><h4>Criciúma – SC</h4><p><img src="<?php echo get_template_directory_uri(); ?>/ICONS/telefone.svg" alt=""> (48) 3056-0909<br><img src="<?php echo get_template_directory_uri(); ?>/ICONS/telefone.svg" alt=""> (48) 99114-0848<br><img src="<?php echo get_template_directory_uri(); ?>/ICONS/relogio.svg" alt=""> Segunda a sexta – 08h às 18h<br><img src="<?php echo get_template_directory_uri(); ?>/ICONS/pin.svg" alt=""> Rua Antônio De Lucca, 148, Sala 111, Pio Corrêa</p><a href="https://api.whatsapp.com/send?phone=5548991140848&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Isabel%20Rampinelli.%20" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""> Clique para agendar em Criciúma</a><a class="map" href="https://maps.google.com/?q=Rua+Antonio+De+Lucca,+148,+Sala+111,+Pio+Correa,+Criciúma+-+SC" target="_blank" rel="noopener">Ver rota no mapa →</a></article>
+
+          <article><h3>Clínica SC Cardio</h3><h4>Araranguá – SC</h4><p><img src="<?php echo get_template_directory_uri(); ?>/ICONS/telefone.svg" alt=""> (48) 3524-0042<br><img src="<?php echo get_template_directory_uri(); ?>/ICONS/relogio.svg" alt=""> Segunda a sexta – 08h às 18h<br><img src="<?php echo get_template_directory_uri(); ?>/ICONS/pin.svg" alt=""> Rua Governador Jorge Lacerda, 840 - Nova Divinéia</p><a href="https://api.whatsapp.com/send?phone=554835240042&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Isabel%20Rampinelli.%20" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""> Clique para agendar em Araranguá</a><a class="map" href="https://maps.google.com/?q=Rua+Governador+Jorge+Lacerda,+840,+Nova+Divinéia,+Araranguá+-+SC" target="_blank" rel="noopener">Ver rota no mapa →</a></article>
+          
+          <article><h3>Clínica Dr. Salvaro</h3><h4>Turvo – SC</h4><p><img src="<?php echo get_template_directory_uri(); ?>/ICONS/telefone.svg" alt=""> (48) 3525-3210<br><img src="<?php echo get_template_directory_uri(); ?>/ICONS/telefone.svg" alt=""> (48) 98453-0614<br><img src="<?php echo get_template_directory_uri(); ?>/ICONS/relogio.svg" alt=""> Segunda a sexta – 08h às 18h<br><img src="<?php echo get_template_directory_uri(); ?>/ICONS/pin.svg" alt=""> R. Nereu Ramos, 800 - Centro</p><a href="https://api.whatsapp.com/send?phone=5548984530614&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Isabel%20Rampinelli.%20" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""> Clique para agendar em Turvo</a><a class="map" href="https://maps.google.com/?q=R.+Nereu+Ramos,+800,+Centro,+Turvo+-+SC" target="_blank" rel="noopener">Ver rota no mapa →</a></article>
+        </div>
+      </section>
+
+      <section id="teleconsulta" class="section teleconsulta">
+        <p class="eyebrow">Atendimento remoto</p>
+        <h2>Teleconsulta</h2>
+        <p>Além dos atendimentos presenciais, também realizamos teleconsulta para acompanhamento, revisão de exames e orientação inicial quando a consulta virtual é a melhor opção para o seu caso.</p>
+        <a class="button button-green" href="https://api.whatsapp.com/send?phone=5548991140848&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20teleconsulta%20com%20a%20Dra.%20Isabel%20Rampinelli.%20" target="_blank" rel="noopener">Agendar teleconsulta <img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""></a>
+      </section>
+
+      <section id="perguntas" class="faq section">
+        <p class="eyebrow">Me perguntam com frequência</p>
+        <h2>Principais dúvidas</h2>
+        <div class="accordion">
+          <details><summary>Você atende por plano de saúde?</summary><p>Sim. Atendo pelos convênios Saúde São José e GEAP.</p></details>
+          <details><summary>Realiza consulta online?</summary><p>Sim. As consultas por telemedicina são realizadas via plataforma segura e são indicadas para casos que não exigem exame físico imediato, como acompanhamento, revisão de exames ou orientação inicial.</p></details>
+          <details><summary>A consulta inclui direito a retorno?</summary><p>Sim, em até 30 dias, nos casos em que houver necessidade de exame complementar para definição de conduta.</p></details>
+          <details><summary>Quais as formas de pagamento?</summary><p>PIX, dinheiro ou transferência bancária.</p></details>
+        </div>
+      </section>
+
+<?php get_footer(); ?>

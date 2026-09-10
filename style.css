@@ -1,10 +1,20 @@
+/*
+Theme Name: LP Dra. Isabel Rampinelli
+Theme URI: https://github.com/Dorstkaue/lpisabel
+Author: Kaue Dorst / Desenvolvedor
+Description: Landing page de Neurologia para a Dra. Isabel Rampinelli.
+Version: 1.0
+*/
+
 @font-face{font-family:Product;src:url('FONTS/ProductSans-Regular.ttf')}
 
 @font-face{font-family:Product;src:url('FONTS/ProductSans-Bold.ttf');font-weight:700}
 
-@font-face{font-family:Higuen;src:url('FONTS/Higuen-Serif.ttf')}*
+@font-face{font-family:Higuen;src:url('FONTS/Higuen-Serif.ttf')}
 
-{box-sizing:border-box}
+* {
+  box-sizing:border-box;
+}
 
 html{scroll-behavior:smooth}
 
