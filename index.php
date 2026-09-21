@@ -1,11 +1,25 @@
 <?php get_header(); ?>
 
       <section id="inicio" class="hero artwork-one">
-        <div class="hero-copy"><strong><h1>Você não precisa<br>conviver com<br>estes sintomas:</h1></strong>
-          <p>Dor de cabeça constante. <span class="break-word">Tonturas.</span> Formigamentos.<br>Esquecimentos. <strong>Seu corpo está <br> avisando algo.</strong></p><a class="button button-green" href="https://api.whatsapp.com/send/?phone=5548996500320&text=Ol%C3%A1%2C+vim+do+site+da+Dra.+Isabel+e+gostaria+de+agendar+uma+consulta.&type=phone_number&app_absent=0" target="_blank" rel="noopener">Quero entender meus sintomas <img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""></a></div>
+        <div class="hero-copy">
+          <h1>Você não precisa<br>conviver com<br>estes sintomas:</h1>
+          <p>Dor de cabeça constante. <span class="break-word">Tonturas.</span> Formigamentos.<br>Esquecimentos. <strong>Seu corpo está <br> avisando algo.</strong></p>
+          <a class="button button-green" href="https://api.whatsapp.com/send/?phone=5548996500320&text=Ol%C3%A1%2C+vim+do+site+da+Dra.+Isabel+e+gostaria+de+agendar+uma+consulta.&type=phone_number&app_absent=0" target="_blank" rel="noopener">Quero entender meus sintomas <img src="<?php echo get_template_directory_uri(); ?>/ICONS/wpp.svg" alt=""></a>
+        </div>
 
-        <div class="hero-note">
-          <div class="note-grid"><a href="https://www.google.com/maps/place/Dra.+Isabel+Rampinelli+-+Neurologista+em+Crici%C3%BAma,+Ararangu%C3%A1+e+Turvo%2FSC/@-28.8144954,-49.4782291,11z/data=!4m8!3m7!1s0x62927220f4cd5753:0x823c8637cd2cf73b!8m2!3d-28.8144954!4d-49.4782291!9m1!1b1!16s%2Fg%2F11xl3vzpvn?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" aria-label="Ver avaliações no Google"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/PACIENTES.svg" alt=""><small>+ de 1000<br>pacientes atendidos</small></a><span><img src="<?php echo get_template_directory_uri(); ?>/ICONS/familiaicon.svg" alt=""><small>Adultos e<br>crianças acima<br>de oito anos</small></a></span><a class="wide" href="#locais"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/local.svg" alt=""><small>Presencial em Araranguá, Criciúma e Turvo</small></a>
+        <div class="hero-visual">
+          <div class="hero-note">
+            <div class="note-grid">
+              <a href="https://www.google.com/maps/place/Dra.+Isabel+Rampinelli+-+Neurologista+em+Crici%C3%BAma,+Ararangu%C3%A1+e+Turvo%2FSC/@-28.8144954,-49.4782291,11z/data=!4m8!3m7!1s0x62927220f4cd5753:0x823c8637cd2cf73b!8m2!3d-28.8144954!4d-49.4782291!9m1!1b1!16s%2Fg%2F11xl3vzpvn?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" aria-label="Ver avaliações no Google"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/PACIENTES.svg" alt=""><small>+ de 1000<br>pacientes atendidos</small></a>
+              <span><img src="<?php echo get_template_directory_uri(); ?>/ICONS/familiaicon.svg" alt=""><small>Adultos e<br>crianças acima<br>de oito anos</small></span>
+              <a class="wide" href="#locais"><img src="<?php echo get_template_directory_uri(); ?>/ICONS/local.svg" alt=""><small>Presencial em Araranguá, Criciúma e Turvo</small></a>
+            </div>
+          </div>
+
+          <div class="hero-identity" aria-label="Dados da profissional">
+            <strong>DRA. ISABEL RAMPINELLI</strong>
+            <span>CRM-SC 31805 / RQE 27017</span>
+            <small>NEUROLOGISTA</small>
           </div>
         </div>
       </section>
@@ -73,8 +87,10 @@
       </section>
 
       <section id="locais" class="locations section">
-        <p class="eyebrow">Locais de atendimento</p>
-        <h2>Onde me encontrar?</h2>
+        <div class="locations-header" style="display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;">
+          <p class="eyebrow" style="margin:0;">Locais de atendimento</p>
+          <h2 style="margin:0;">Onde me encontrar?</h2>
+        </div>
         <p class="location-intro">Realizo atendimentos presenciais em diferentes cidades do Sul de Santa Catarina, levando um cuidado neurológico de excelência com acessibilidade, estrutura e compromisso com cada paciente. Escolha a unidade mais próxima e agende sua consulta.</p>
 
         <div class="location-grid">
@@ -94,8 +110,10 @@
       </section>
 
       <section id="perguntas" class="faq section">
-        <p class="eyebrow">Me perguntam com frequência</p>
-        <h2>Principais dúvidas</h2>
+        <div class="faq-header" style="display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;">
+          <p class="eyebrow" style="margin:0;">Me perguntam com frequência</p>
+          <h2 style="margin:0;">Principais dúvidas</h2>
+        </div>
         <div class="accordion">
           <details><summary>Você atende por plano de saúde?</summary><p>Sim. Atendo pelos convênios Saúde São José e GEAP.</p></details>
           <details><summary>Realiza consulta online?</summary><p>Sim. As consultas por telemedicina são realizadas via plataforma segura e são indicadas para casos que não exigem exame físico imediato, como acompanhamento, revisão de exames ou orientação inicial.</p></details>
