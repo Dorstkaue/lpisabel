@@ -63,7 +63,11 @@
           <?php 
             // O shortcode abaixo será gerado pelo plugin de avaliações do Google que você instalar (ex: Trustindex)
             if (function_exists('do_shortcode')) {
+<<<<<<< HEAD
                 echo do_shortcode('[trustindex no-wrapper=google]'); 
+=======
+                echo do_shortcode('[trustindex no-registration=google]');
+>>>>>>> f80721b (ajuste avaliação do google)
             }
           ?>
       </section>
