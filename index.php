@@ -1,4 +1,40 @@
-<?php get_header(); ?>
+<?php
+if (!function_exists('get_header')) {
+    function get_header() {
+        include __DIR__ . '/header.php';
+    }
+}
+if (!function_exists('get_footer')) {
+    function get_footer() {
+        include __DIR__ . '/footer.php';
+    }
+}
+if (!function_exists('wp_head')) {
+    function wp_head() {}
+}
+if (!function_exists('wp_footer')) {
+    function wp_footer() {}
+}
+if (!function_exists('body_class')) {
+    function body_class() {
+        return '';
+    }
+}
+if (!function_exists('get_template_directory_uri')) {
+    function get_template_directory_uri() {
+        $host = $_SERVER['HTTP_HOST'] ?? 'localhost:8000';
+        return 'http://' . $host;
+    }
+}
+if (!function_exists('get_stylesheet_uri')) {
+    function get_stylesheet_uri() {
+        $host = $_SERVER['HTTP_HOST'] ?? 'localhost:8000';
+        return 'http://' . $host . '/style.css';
+    }
+}
+
+get_header();
+?>
 
       <section id="inicio" class="hero artwork-one">
         <div class="hero-copy">
@@ -77,19 +113,15 @@
           <?php 
             // O shortcode abaixo será gerado pelo plugin de avaliações do Google que você instalar (ex: Trustindex)
             if (function_exists('do_shortcode')) {
-<<<<<<< HEAD
-                echo do_shortcode('[trustindex no-wrapper=google]'); 
-=======
                 echo do_shortcode('[trustindex no-registration=google]');
->>>>>>> f80721b (ajuste avaliação do google)
             }
           ?>
       </section>
 
       <section id="locais" class="locations section">
-        <div class="locations-header" style="display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;">
-          <p class="eyebrow" style="margin:0;">Locais de atendimento</p>
-          <h2 style="margin:0;">Onde me encontrar?</h2>
+        <div class="locations-header">
+          <p class="eyebrow">Locais de atendimento</p>
+          <h2>Onde me encontrar?</h2>
         </div>
         <p class="location-intro">Realizo atendimentos presenciais em diferentes cidades do Sul de Santa Catarina, levando um cuidado neurológico de excelência com acessibilidade, estrutura e compromisso com cada paciente. Escolha a unidade mais próxima e agende sua consulta.</p>
 
@@ -110,9 +142,9 @@
       </section>
 
       <section id="perguntas" class="faq section">
-        <div class="faq-header" style="display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;">
-          <p class="eyebrow" style="margin:0;">Me perguntam com frequência</p>
-          <h2 style="margin:0;">Principais dúvidas</h2>
+        <div class="faq-header">
+          <p class="eyebrow">Me perguntam com frequência</p>
+          <h2>Principais dúvidas</h2>
         </div>
         <div class="accordion">
           <details><summary>Você atende por plano de saúde?</summary><p>Sim. Atendo pelos convênios Saúde São José e GEAP.</p></details>

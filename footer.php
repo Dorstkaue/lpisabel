@@ -13,6 +13,12 @@
       </div>
     </footer>
 
-    <?php wp_footer(); /* ESSENCIAL: Carrega o script.js e scripts do painel do WordPress */ ?>
+    <?php
+      if (defined('ABSPATH') && function_exists('wp_footer')) {
+          wp_footer(); /* ESSENCIAL: Carrega o script.js e scripts do painel do WordPress */
+      } else {
+          echo '<script src="' . get_template_directory_uri() . '/script.js" defer></script>';
+      }
+    ?>
   </body>
 </html>

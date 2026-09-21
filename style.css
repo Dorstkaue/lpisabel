@@ -88,6 +88,14 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif; font-size:18px
 
 .section h2{margin:10px;color:#b69d80;font-size:40px;line-height:1}
 
+.locations-header,.faq-header{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap}
+.locations-header .eyebrow,.faq-header .eyebrow{margin:0}
+.locations-header h2,.faq-header h2{margin:0}
+
+@media (min-width:761px){
+  .locations-header,.faq-header{flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:18px}
+}
+
 .intro{font-size:16px;margin:26px 0 37px}
 
 .symptom-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:980px;margin:0 auto}
@@ -112,12 +120,12 @@ body{margin:0;color:#243348;font-family:Product,Arial,sans-serif; font-size:18px
 
 .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:22px;text-align:center;margin-top:112px}
 
-.steps article{display:flex;align-items:center;flex-direction:column;position:relative;padding-top:8px}
+.steps article{display:flex;align-items:center;flex-direction:column;position:relative;padding-top:8px;padding-bottom:30px;isolation:isolate;z-index:0}
 
 /* Setas originais exportadas do Figma, entre as etapas da consulta. */
 .steps article:nth-child(1)::after,.steps article:nth-child(3)::after,.steps article:nth-child(2)::after,.steps article:nth-child(4)::after{content:'';position:absolute;width:205px;height:74px;background:center/contain no-repeat;pointer-events:none;z-index:0}
-.steps article:nth-child(1)::after,.steps article:nth-child(3)::after{background-image:url('ICONS/setacima.svg');left:54%;bottom:155px}
-.steps article:nth-child(2)::after,.steps article:nth-child(4)::after{background-image:url('ICONS/setabaixo.svg');left:54%;top:155px}
+.steps article:nth-child(1)::after,.steps article:nth-child(3)::after{background-image:url('ICONS/setacima.svg');left:54%;bottom:220px}
+.steps article:nth-child(2)::after,.steps article:nth-child(4)::after{background-image:url('ICONS/setabaixo.svg');left:54%;top:220px}
 
 .steps img,.steps b,.steps h3,.steps p{position:relative;z-index:1}
 

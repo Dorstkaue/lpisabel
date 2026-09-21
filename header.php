@@ -6,7 +6,14 @@
     <meta name="description" content="Dra. Isabel Rampinelli — Neurologista">
     <title>Dra. Isabel Rampinelli | Neurologista</title>
     
-    <?php wp_head(); /* ESSENCIAL: Permite que o WordPress injete scripts e estilos do painel */ ?>
+    <?php
+      if (defined('ABSPATH') && function_exists('wp_head')) {
+          wp_head(); /* ESSENCIAL: Permite que o WordPress injete scripts e estilos do painel */
+      } else {
+          echo '<link rel="stylesheet" href="' . get_template_directory_uri() . '/style.css">';
+          echo '<script src="' . get_template_directory_uri() . '/script.js" defer></script>';
+      }
+    ?>
   </head>
   <body <?php body_class(); ?>>
 
